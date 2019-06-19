@@ -16,7 +16,12 @@ class PlaylistController {
     static let sharedInstance = PlaylistController()
     
     // Source of Turth
-    var playlists: [Playlist] = []
+    var playlists: [Playlist] {
+        // Create a NSFetchRequest that specifically references our Playlist model object
+        let request: NSFetchRequest<Playlist> = Playlist.fetchRequest()
+        // Use that FetchRequest to ask the managedObjectContext for all Playlist model ibjects that exist inside of that MOC.
+        return (try? CoreDataStack.managedObjectContext.fetch(request)) ?? []
+    }
     
     // CRUD Functions
     // Create
