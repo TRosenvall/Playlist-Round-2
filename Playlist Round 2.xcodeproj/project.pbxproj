@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		851F023E22BA982F00B32D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F023D22BA982F00B32D2A /* AppDelegate.swift */; };
-		851F024022BA982F00B32D2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F023F22BA982F00B32D2A /* ViewController.swift */; };
 		851F024322BA982F00B32D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851F024122BA982F00B32D2A /* Main.storyboard */; };
 		851F024622BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 851F024422BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld */; };
 		851F024822BA983200B32D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851F024722BA983200B32D2A /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		851F023A22BA982F00B32D2A /* Playlist Round 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playlist Round 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851F023D22BA982F00B32D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		851F023F22BA982F00B32D2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		851F024222BA982F00B32D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		851F024522BA982F00B32D2A /* Playlist_Round_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Playlist_Round_2.xcdatamodel; sourceTree = "<group>"; };
 		851F024722BA983200B32D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,62 @@
 		851F023C22BA982F00B32D2A /* Playlist Round 2 */ = {
 			isa = PBXGroup;
 			children = (
+				851F025522BA993000B32D2A /* Models */,
+				851F025422BA992A00B32D2A /* Views */,
+				851F025322BA992100B32D2A /* Controllers */,
+				851F025222BA991700B32D2A /* Resources */,
+			);
+			path = "Playlist Round 2";
+			sourceTree = "<group>";
+		};
+		851F025222BA991700B32D2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				851F023D22BA982F00B32D2A /* AppDelegate.swift */,
-				851F023F22BA982F00B32D2A /* ViewController.swift */,
-				851F024122BA982F00B32D2A /* Main.storyboard */,
 				851F024722BA983200B32D2A /* Assets.xcassets */,
 				851F024922BA983200B32D2A /* LaunchScreen.storyboard */,
 				851F024C22BA983200B32D2A /* Info.plist */,
 				851F024422BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld */,
 			);
-			path = "Playlist Round 2";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		851F025322BA992100B32D2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				851F025622BA993700B32D2A /* Model Controllers */,
+				851F025722BA994100B32D2A /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		851F025422BA992A00B32D2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				851F024122BA982F00B32D2A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		851F025522BA993000B32D2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		851F025622BA993700B32D2A /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		851F025722BA994100B32D2A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +184,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				851F024622BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld in Sources */,
-				851F024022BA982F00B32D2A /* ViewController.swift in Sources */,
 				851F023E22BA982F00B32D2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
