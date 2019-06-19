@@ -12,6 +12,8 @@
 		851F024622BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 851F024422BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld */; };
 		851F024822BA983200B32D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851F024722BA983200B32D2A /* Assets.xcassets */; };
 		851F024B22BA983200B32D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851F024922BA983200B32D2A /* LaunchScreen.storyboard */; };
+		851F025922BA9D5D00B32D2A /* PlaylistListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F025822BA9D5D00B32D2A /* PlaylistListTableViewController.swift */; };
+		851F025B22BA9EEC00B32D2A /* SongListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F025A22BA9EEC00B32D2A /* SongListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		851F024722BA983200B32D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		851F024A22BA983200B32D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		851F024C22BA983200B32D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851F025822BA9D5D00B32D2A /* PlaylistListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListTableViewController.swift; sourceTree = "<group>"; };
+		851F025A22BA9EEC00B32D2A /* SongListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 		851F025722BA994100B32D2A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				851F025822BA9D5D00B32D2A /* PlaylistListTableViewController.swift */,
+				851F025A22BA9EEC00B32D2A /* SongListTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -183,7 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851F025922BA9D5D00B32D2A /* PlaylistListTableViewController.swift in Sources */,
 				851F024622BA982F00B32D2A /* Playlist_Round_2.xcdatamodeld in Sources */,
+				851F025B22BA9EEC00B32D2A /* SongListTableViewController.swift in Sources */,
 				851F023E22BA982F00B32D2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
